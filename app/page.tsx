@@ -37,12 +37,12 @@ export default function Home() {
             Read Documentation
           </a>
           <a
-            href="https://www.youtube.com/watch?v=g_Ow0JKbMw8"
+            href="https://www.youtube.com/watch?v=LxEMypxdKVU"
             target="_blank"
             rel="noopener noreferrer"
             className="border border-white/20 backdrop-blur-md px-6 py-3 rounded-full hover:bg-white/10 transition font-medium"
           >
-            Watch Demo →
+            Watch Youtube →
           </a>
         </div>
       </main>
