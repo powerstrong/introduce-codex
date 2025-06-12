@@ -1,11 +1,16 @@
 import Link from "next/link";
 
-export default function UsagePage() {
+export default function Page3() {
   return (
     <div className="relative min-h-screen bg-black text-white flex flex-col items-center justify-center overflow-hidden px-6 py-20">
       <div className="absolute inset-0 -z-10 bg-gradient-to-br from-sky-900 via-cyan-900 to-black opacity-80" />
       <div className="absolute -top-40 left-1/2 transform -translate-x-1/2 w-[600px] h-[600px] bg-sky-500 opacity-30 rounded-full blur-[160px] animate-pulse" />
       <div className="absolute bottom-[-120px] right-[-120px] w-[300px] h-[300px] bg-blue-600 opacity-30 rounded-full blur-[100px]" />
+      <div className="absolute top-4 left-4 z-20">
+        <Link href="/" className="font-semibold hover:underline">
+          MARA
+        </Link>
+      </div>
       <main className="text-center max-w-3xl z-10">
         <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight leading-tight bg-gradient-to-r from-white via-cyan-200 to-blue-300 text-transparent bg-clip-text drop-shadow-[0_2px_20px_rgba(255,255,255,0.2)]">
           사용 방식 – 구성, 실행, 관리

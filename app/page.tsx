@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -7,34 +8,11 @@ export default function Home() {
       <div className="absolute inset-0 -z-10 bg-gradient-to-br from-sky-900 via-cyan-900 to-black opacity-80" />
       <div className="absolute -top-40 left-1/2 transform -translate-x-1/2 w-[600px] h-[600px] bg-sky-500 opacity-30 rounded-full blur-[160px] animate-pulse" />
       <div className="absolute bottom-[-120px] right-[-120px] w-[300px] h-[300px] bg-blue-600 opacity-30 rounded-full blur-[100px]" />
-
-      {/* Top Navigation */}
-      <nav className="absolute top-6 left-0 right-0 flex justify-center gap-4 z-20">
-        <a
-          href="/overview"
-          className="bg-white text-black px-4 py-2 rounded-full text-sm font-semibold hover:bg-cyan-100 transition shadow"
-        >
-          개요
-        </a>
-        <a
-          href="/architecture"
-          className="bg-white text-black px-4 py-2 rounded-full text-sm font-semibold hover:bg-cyan-100 transition shadow"
-        >
-          아키텍처
-        </a>
-        <a
-          href="/usage"
-          className="bg-white text-black px-4 py-2 rounded-full text-sm font-semibold hover:bg-cyan-100 transition shadow"
-        >
-          사용 방식
-        </a>
-        <a
-          href="/usecase"
-          className="bg-white text-black px-4 py-2 rounded-full text-sm font-semibold hover:bg-cyan-100 transition shadow"
-        >
-          활용 사례
-        </a>
-      </nav>
+      <div className="absolute top-4 left-4 z-20">
+        <Link href="/" className="font-semibold hover:underline">
+          MARA
+        </Link>
+      </div>
 
       {/* Content */}
       <main className="text-center max-w-3xl z-10">
@@ -71,6 +49,20 @@ export default function Home() {
             className="border border-white/20 backdrop-blur-md px-6 py-3 rounded-full hover:bg-white/10 transition font-medium"
           >
             Watch Youtube →
+          </a>
+        </div>
+        <div className="mt-8 flex flex-wrap justify-center gap-3">
+          <a href="/overview" className="underline hover:text-gray-300">
+            개요
+          </a>
+          <a href="/architecture" className="underline hover:text-gray-300">
+            아키텍처
+          </a>
+          <a href="/usage" className="underline hover:text-gray-300">
+            사용 방식
+          </a>
+          <a href="/usecase" className="underline hover:text-gray-300">
+            활용 사례
           </a>
         </div>
       </main>
