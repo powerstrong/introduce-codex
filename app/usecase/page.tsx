@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Page4() {
+export default function UseCasePage() {
   return (
     <div className="relative min-h-screen bg-black text-white flex flex-col items-center justify-center overflow-hidden px-6 py-20">
       <div className="absolute inset-0 -z-10 bg-gradient-to-br from-sky-900 via-cyan-900 to-black opacity-80" />

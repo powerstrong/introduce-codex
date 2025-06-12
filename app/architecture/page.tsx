@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Page2() {
+export default function ArchitecturePage() {
   return (
     <div className="relative min-h-screen bg-black text-white flex flex-col items-center justify-center overflow-hidden px-6 py-20">
       <div className="absolute inset-0 -z-10 bg-gradient-to-br from-sky-900 via-cyan-900 to-black opacity-80" />
@@ -20,7 +20,7 @@ export default function Page2() {
           모든 모듈은 Module(계산 중심, 일시적 실행)과 RunnableModule(지속적 동작, 별도 스레드 실행) 두 인터페이스 중 하나를 기반으로 작성되며, MARA의 구성 요소는 이를 상속해 독립적으로 구현됩니다.
         </p>
         <div className="mt-8">
-          <Link href="/page3" className="underline hover:text-gray-300">
+          <Link href="/usage" className="underline hover:text-gray-300">
             다음 페이지 →
           </Link>
         </div>

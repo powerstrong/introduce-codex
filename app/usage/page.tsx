@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Page3() {
+export default function UsagePage() {
   return (
     <div className="relative min-h-screen bg-black text-white flex flex-col items-center justify-center overflow-hidden px-6 py-20">
       <div className="absolute inset-0 -z-10 bg-gradient-to-br from-sky-900 via-cyan-900 to-black opacity-80" />
@@ -26,7 +26,7 @@ export default function Page3() {
           CMake 기반 빌드 체인을 통해 모듈을 추가하면 자동으로 빌드 구성이 반영됩니다.
         </p>
         <div className="mt-8">
-          <Link href="/page4" className="underline hover:text-gray-300">
+          <Link href="/usecase" className="underline hover:text-gray-300">
             다음 페이지 →
           </Link>
         </div>

@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Page1() {
+export default function OverviewPage() {
   return (
     <div className="relative min-h-screen bg-black text-white flex flex-col items-center justify-center overflow-hidden px-6 py-20">
       <div className="absolute inset-0 -z-10 bg-gradient-to-br from-sky-900 via-cyan-900 to-black opacity-80" />
@@ -17,7 +17,7 @@ export default function Page1() {
           MARA는 로봇 동작 구조의 복잡성, 시스템 구성 변경의 어려움, 유지보수 및 디버깅의 비효율성을 해결하기 위해 모듈화, 런타임 연결, 로컬 최적화 통신이라는 세 가지 핵심 설계를 따릅니다.
         </p>
         <div className="mt-8">
-          <Link href="/page2" className="underline hover:text-gray-300">
+          <Link href="/architecture" className="underline hover:text-gray-300">
             다음 페이지 →
           </Link>
         </div>
