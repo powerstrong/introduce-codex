@@ -45,6 +45,20 @@ export default function Home() {
             Watch Youtube →
           </a>
         </div>
+        <div className="mt-8 flex flex-wrap justify-center gap-3">
+          <a href="/page1" className="underline hover:text-gray-300">
+            페이지 1
+          </a>
+          <a href="/page2" className="underline hover:text-gray-300">
+            페이지 2
+          </a>
+          <a href="/page3" className="underline hover:text-gray-300">
+            페이지 3
+          </a>
+          <a href="/page4" className="underline hover:text-gray-300">
+            페이지 4
+          </a>
+        </div>
       </main>
 
       <footer className="absolute bottom-6 text-sm text-gray-400 z-10">
